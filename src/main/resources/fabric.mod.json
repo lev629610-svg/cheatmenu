@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatmenu",
+  "version": "1.0.0",
+  "name": "Cheat Menu",
+  "description": "Simple cheat menu for singleplayer",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.cheat.CheatMod"] },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
